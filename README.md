@@ -1,1 +1,149 @@
 # pinar-smart-card
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#123d3b">
+<title>PINAR | کارت هوشمند</title>
+<style>
+*{box-sizing:border-box}
+body{
+ margin:0;
+ font-family:Tahoma,Arial,sans-serif;
+ background:#102e2d;
+ color:#f8f1df;
+ text-align:center;
+}
+.container{
+ max-width:480px;
+ margin:auto;
+ padding:28px 20px 40px;
+}
+.card{
+ background:linear-gradient(145deg,#174947,#102f30);
+ border:1px solid #c9a85d;
+ border-radius:26px;
+ padding:28px 20px;
+ box-shadow:0 15px 45px #0005;
+}
+.logo{
+ width:100px;height:100px;
+ border-radius:50%;
+ border:2px solid #c9a85d;
+ margin:0 auto 14px;
+ display:grid;place-items:center;
+ color:#e4c77e;
+ font-family:Georgia,serif;
+ font-size:30px;
+}
+h1{
+ color:#e6c77e;
+ font-family:Georgia,serif;
+ letter-spacing:4px;
+ font-size:32px;
+ margin:8px;
+}
+h2{font-size:19px;font-weight:normal}
+.gold{color:#dfc17b}
+p{line-height:2;color:#e8e2d3}
+.line{
+ height:1px;background:#b99b5c;
+ margin:22px 0;
+}
+.buttons{
+ display:grid;
+ grid-template-columns:1fr 1fr;
+ gap:12px;
+ margin-top:20px;
+}
+a{
+ text-decoration:none;
+ color:#f8f1df;
+}
+.btn{
+ display:block;
+ padding:15px 8px;
+ border:1px solid #c9a85d;
+ border-radius:13px;
+ font-size:14px;
+ background:#ffffff0b;
+}
+.btn.main{
+ background:#c9a85d;
+ color:#153b38;
+ font-weight:bold;
+}
+.services{
+ text-align:right;
+ line-height:2.4;
+ font-size:14px;
+}
+.footer{
+ color:#c9a85d;
+ font-size:12px;
+ margin-top:25px;
+}
+</style>
+</head>
+<body>
+<div class="container">
+<div class="card">
+
+<div class="logo">PINAR</div>
+<h1>PINAR</h1>
+<h2 class="gold">SKIN & BEAUTY CENTER</h2>
+<p>مرکز تخصصی مراقبت و زیبایی پوست</p>
+
+<div class="line"></div>
+
+<h2>پریسا صائب</h2>
+<p class="gold">Beauty Therapist | Facial Specialist</p>
+<p>
+زیبایی طبیعی، مراقبت تخصصی و تجربه‌ای آرامش‌بخش
+برای پوست شما
+</p>
+
+<div class="line"></div>
+
+<h3 class="gold">خدمات تخصصی پینار</h3>
+<div class="services">
+✓ فیشیال تخصصی و پاکسازی پوست<br>
+✓ آبرسانی و احیای پوست<br>
+✓ جوانسازی و لیفتینگ<br>
+✓ کربوکسی‌تراپی<br>
+✓ مراقبت از پوست‌های حساس و مستعد آکنه<br>
+✓ خدمات لیزر
+</div>
+
+<div class="line"></div>
+
+<div class="buttons">
+<a class="btn main" href="https://nobati.app/job/skinpariisaa">
+رزرو آنلاین نوبت
+</a>
+<a class="btn" href="tel:09149201612">
+تماس مستقیم
+</a>
+<a class="btn" href="https://wa.me/989149201612">
+واتساپ
+</a>
+<a class="btn" href="https://balad.ir/p/3e3gEHJLvELKyl">
+مسیریابی مرکز
+</a>
+<a class="btn" href="https://instagram.com/pinar.beautycenter">
+اینستاگرام PINAR
+</a>
+<a class="btn" href="https://instagram.com/skincare.pariisaa">
+پیج تخصصی پریسا
+</a>
+</div>
+
+<div class="line"></div>
+<p class="gold">زیبایی تو، تخصص ماست ✨</p>
+<div class="footer">PINAR BEAUTY CENTER · MARAGHEH</div>
+
+</div>
+</div>
+</body>
+</html>
